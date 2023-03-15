@@ -1,0 +1,66 @@
+/*************************************************************************>
+<!*** FAETEC - Fundação de Apoio à Escola Técnica                      ***>
+<!*** ETE-ACV - Escola Técnica Estadual Amaury César Vieira            ***>
+<!*** ---------------------------------------------------------------- ***>
+<!*** Disciplina: Aplicativos I                                        ***>
+<!*** Prof. Arnaldo Borges                                             ***>
+<!*** ---------------------------------------------------------------- ***>
+<!*** Assunto: Estilização com CSS3                                    ***>
+<!*** Cabeçalho Padrão                                                 ***>
+<!*** ---------------------------------------------------------------- ***>
+<!*** Programa: Estilização de Página com Tabelas                      ***>
+<!*** Data:16/11/2022                                                  ***>
+<!*** Aluno programador:  Gabriel de Souza Moreira                     ***>
+<!************************************************************************/
+body
+{
+    background-color:#0094BB;
+    font:12px Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-200px;
+    margin-left:-280px;
+}
+table, td, th, tfoot
+{
+    border:solid 1px #000; padding:5px;
+}
+th 
+{
+    background-color:#999;
+}
+.coluna1
+{
+    background:rgb(69, 104, 201);
+}
+.coluna2
+{
+    background:rgb(135, 172, 49);
+}
+
+.coluna3
+{
+    background:rgb(69, 130, 158);
+}
+.coluna4
+{
+    background:rgb(189, 91, 91);
+}
+.coluna5
+{
+    background:rgb(156, 62, 199);
+}
+.coluna6
+{
+    background:rgb(70, 182, 89);
+}
+.linha1
+{
+    background:rgb(114, 141, 190);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
